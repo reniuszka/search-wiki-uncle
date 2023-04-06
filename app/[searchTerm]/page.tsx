@@ -84,7 +84,6 @@ const SearchDynamicPage = async ({ params: { searchTerm } }: Props) => {
       ) : (
         <h2>{`${searchTerm} Not Found`}</h2>
       )}
-      <p>bla bla</p>
     </main>
   );
 };
