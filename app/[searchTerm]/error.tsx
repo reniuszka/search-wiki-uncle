@@ -17,7 +17,9 @@ export default function Error({
 
   return (
     <main className="bg-slate-200 mx-auto max-w-lg py-1 px-4 min-h-screen">
-      <h2 className="my-4 text-2xl font-bold">Something went wrong!</h2>
+      <h2 className="my-4 text-2xl font-bold text-green-900">
+        Something went wrong!
+      </h2>
       <button
         className="mb-4 p-4 bg-red-500 text-white rounded-xl"
         onClick={
@@ -27,7 +29,7 @@ export default function Error({
       >
         Try again
       </button>
-      <p className="text-xl">
+      <p className="text-xl text-green-900">
         Or go back to{" "}
         <Link href="/" className="underline">
           Home 🏠
